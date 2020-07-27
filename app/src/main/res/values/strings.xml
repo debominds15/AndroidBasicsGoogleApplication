@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="title_activity_add_edit_note">AddEditNoteActivity</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="save">Save</string>
+
+    <string name="seconds">%1$d s</string>
+    <string name="required_network_type">Network Type Required:</string>
+    <string name="none">None</string>
+    <string name="any">Any</string>
+    <string name="wifi">Wifi</string>
+    <string name="requires">Requires:</string>
+    <string name="device_idle">Device Idle</string>
+    <string name="device_charging">Device Charging</string>
+    <string name="override_deadline">Override Deadline:</string>
+    <string name="not_set">Not set</string>
+    <string name="schedule_job">Schedule Job</string>
+    <string name="cancel_jobs">Cancel Jobs</string>
+    <string name="job_service">Job Service</string>
+    <string name="job_running">Your Job ran to completion!</string>
+    <string name="job_service_notification">Job Service notification</string>
+    <string name="notification_channel_description">Notifications from Job Service</string>
+    <string name="job_scheduled">Job Scheduled, will run when the constraints are met</string>
+    <string name="no_constraint_toast">Please set at least one constraint</string>
+    <string name="jobs_canceled">Jobs Canceled</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Try Again?</string>
+    <string name="position">Position</string>
+    <string name="select_an_avatar">Select an Avatar</string>
+    <string name="android_trivia">Android Trivia</string>
+    <string name="about_text">Android Trivia will help remind you of important concepts you have learned and will learn in Android development.\n\nConsider modifying the questions and graphics to make this game your own!</string>
+    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="trivia_hint">Trivia Hint</string>
+    <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
+    <string name="title_about_trivia">About Trivia</string>
+    <string name="title_trivia_rules">Trivia Rules</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!</string>
+    <string name="submit_button">Submit</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+
+    <string name="dollar_sign">$</string>
+    <string name="zero">0</string>
+    <string name="dessert_sold">Desserts Sold</string>
+    <string name="share_text">I\'ve clicked %1$d Desserts for a total of %2$d$ #AndroidDessertClicker</string>
+
+    <string name="skip">Skip</string>
+    <string name="play_again">Play Again</string>
+    <string name="you_scored">You Scored</string>
+    <string name="title_text">guess the word!</string>
+    <string name="play_button">Play</string>
+    <string name="get_ready">Get ready to</string>
+    <string name="got_it">Got it</string>
+    <string name="end_game">End game</string>
+    <string name="word_is">The word is…</string>
+
+    <string name="quote_format">\"%s\"</string>
+    <string name="score_format">Current Score: %d</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+    <string name="sleep_quality_fragment">SleepQualityFragment</string>
+
+    <!-- Button labels -->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="clear">Clear</string>
+
+    <!-- contentDescription strings for quality icons -->
+    <string name="quality_0">Sleep Quality 0</string>
+    <string name="quality_1">Sleep Quality 1</string>
+    <string name="quality_2">Sleep Quality 2</string>
+    <string name="quality_3">Sleep Quality 3</string>
+    <string name="quality_4">Sleep Quality 4</string>
+    <string name="quality_5">Sleep Quality 5</string>
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="sleep_title"><![CDATA[<h3>HERE IS YOUR SLEEP DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="minutes_length">%d minutes on %s</string>
+    <string name="hours_length">%d hours on %s</string>
+    <string name="seconds_length">%d seconds on %s</string>
+
+    <!-- Sleep quality strings -->
+    <string name="how_was_hour_sleep">How was your sleep?</string>
+    <string name="zero_very_bad">Very bad</string>
+    <string name="one_poor">Poor</string>
+    <string name="two_soso">So-so</string>
+    <string name="three_ok">OK</string>
+    <string name="four_pretty_good">Pretty good</string>
+    <string name="five_excellent">Excellent!</string>
+
+    <!-- Toast to play after Clear button has been pressed -->
+    <string name="cleared_message">All your data is gone forever.</string>
+    <string name="close">Close</string>
+    <string name="header_text">Sleep Results</string>
+
+
+    <!-- Mars real estate Retrofit-->
+    <string name="show_all">Show all</string>
+    <string name="show_rent">Rent</string>
+    <string name="show_buy">Buy</string>
+    <string name="type_rent">Rent</string>
+    <string name="type_sale">Sale</string>
+    <string name="display_type">For %s</string>
+    <string name="display_price_monthly_rental">$%,.0f/month</string>
+    <string name="display_price">$%,.0f</string>
+
+
+    <!-- GDG Finder-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_gdg">"Couldn't find a GDG in your region? Great, go ahead and start one. Fill the form below and
+        expect to hear from us shortly! "
+    </string>
+    <string name="application_submitted">Got your application request!! Oh well, not really. This is a test form just
+        for educational purposes. If you really want to submit your application please visit the website!
+    </string>
+    <string name="gdg_search">GDG Search</string>
+    <string name="gdg_apply">Apply to run GDG</string>
+    <string name="gdgs_are">GDGs Are…</string>
+    <string name="gdg_description_long">GDGs are local groups of developers who are specifically interested in Google
+        products and APIs. Each local group is called a GDG chapter and can host a variety of technical activities for
+        developers - from just a few people getting together to watch our latest videos, to large gatherings with demos
+        and tech talks, to hackathons. Google Developers supports and recognizes GDG chapters, but doesn’t own or manage
+        them.
+    </string>
+    <string name="about_google_developer_groups">About Google Developer Groups</string>
+    <string name="gdg_description_bullets">️Run by passionate individuals in local developer communities\n
+        ️A group to share ideas and network with fellow developers \n
+        ️A place to learn about Google technologies and development tools \n
+        Open to and free for all interested
+    </string>
+    <string name="waiting_for_location_and_network">Waiting for location and network result.\n\n If running on an
+        emulator open the Maps app to enable location services.
+    </string>
+
+    <string name="stage_image_description">Photo from stage from a devfest</string>
+    <string name="submit_button_description">Button to submit form</string>
+    <string name="form_name_description">enter your name</string>
+    <string name="motivation">Tell us a bit more about why do you want to start a GDG</string>
+    <string name="your_name_label">Your name</string>
+    <string name="email_label">e-mail</string>
+    <string name="city_label">city</string>
+    <string name="country_label">country</string>
+    <string name="region_label">region</string>
+    <string name="enter_motivation">Please enter your motivation in 1-2 sentences</string>
+    <string name="submitted">Submitted, no need to submit again</string>
+    <string name="done">Done</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="egg_prompt">How do you like your egg?</string>
+    <string name="timer_on">Start</string>
+    <string name="timer_off">Stop</string>
+    <string name="notification_title">Egg Timer</string>
+    <string name="notification_text">Your egg is ready!!</string>
+
+    <string name="fcm_message">FCM Message</string>
+    <string name="message_subscribe_failed">Failed to subscribe to topic</string>
+    <string name="message_subscribed">Subscribed to topic</string>
+    <string name="egg_notification_channel_id" translatable="false">egg_channel</string>
+    <string name="egg_notification_channel_name" translatable="true">Egg</string>
+    <string name="breakfast_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="breakfast_notification_channel_name" translatable="true">Breakfast</string>
+    <string name="eggs_ready">It is time! Bon appetit!</string>
+    <string name="timer_running">Egg timer is running...</string>
+    <string name="breakfast_notification_channel_description">Breakfast reminder</string>
+    <string name="snooze">Snooze</string>
+
+</resources>
